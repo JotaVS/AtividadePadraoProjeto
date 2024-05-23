@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Builder/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Builder/ProdutoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/Builder/TestBuilder.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Builder Implementação e Teste">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaAbstrata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaNotaDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaNotaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscalDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscalFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Bicicleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/VeiculoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Prototype/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Singleton/PlayerMusica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/AbstractFactory/TestAbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/FactoryMethod/TestFactoryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/Prototype/TestPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/Singleton/TestSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,9 +42,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JotaVS&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JotaVS/AtividadePadraoProjeto.git&quot;,
+    &quot;accountId&quot;: &quot;bf338f2e-a17d-4c00-8312-6457a961b8a9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2gpK21J79omT9oT8AwfYzdyliiQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -43,12 +67,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.TestAbstractFactory.Teste.executor": "Run",
+    "JUnit.TestAbstractFactory.executor": "Coverage",
     "JUnit.TestBuilder.executor": "Coverage",
+    "JUnit.TestFactoryMethod.executor": "Coverage",
+    "JUnit.TestFactoryMethod.testCriarCarro.executor": "Run",
+    "JUnit.TestFactoryMethod.testVeiculoInexistente.executor": "Run",
+    "JUnit.TestPrototype.executor": "Coverage",
+    "JUnit.TestSingleton.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Padrao Projetos/EntregaFinalPadraopProjeto/AtividadePadraoProjeto/src/test/java/PadroesCriacao",
+    "last_opened_file_path": "D:/Padrao Projetos/Exemplos Professor",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -60,25 +92,92 @@
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java\PadroesCriacao" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="TestBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestAbstractFactory">
+    <configuration name="TestAbstractFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesCriacao.Builder.*" />
+          <option name="PATTERN" value="PadroesCriacao.AbstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.Builder" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.Builder.TestBuilder" />
+      <option name="PACKAGE_NAME" value="PadroesCriacao.AbstractFactory" />
+      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.AbstractFactory.TestAbstractFactory" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAbstractFactory.TesteEmitirNotaFisica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesCriacao.AbstractFactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesCriacao.AbstractFactory" />
+      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.AbstractFactory.TestAbstractFactory" />
+      <option name="METHOD_NAME" value="TesteEmitirNotaFisica" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryMethod.testCriarCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
+      <option name="METHOD_NAME" value="testCriarCarro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFactoryMethod.testVeiculoInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
+      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
+      <option name="METHOD_NAME" value="testVeiculoInvalido" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBuilder" />
+        <item itemvalue="JUnit.TestAbstractFactory" />
+        <item itemvalue="JUnit.TestAbstractFactory.TesteEmitirNotaFisica" />
+        <item itemvalue="JUnit.TestFactoryMethod" />
+        <item itemvalue="JUnit.TestFactoryMethod.testVeiculoInvalido" />
+        <item itemvalue="JUnit.TestFactoryMethod.testCriarCarro" />
       </list>
     </recent_temporary>
   </component>
@@ -91,11 +190,36 @@
       <option name="presentableId" value="Default" />
       <updated>1716388870680</updated>
     </task>
+    <task id="LOCAL-00001" summary="Builder Implementação e Teste">
+      <option name="closed" value="true" />
+      <created>1716391577082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716391577082</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Builder Implementação e Teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder Implementação e Teste" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391334432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestSingleton.ic" NAME="TestSingleton Coverage Results" MODIFIED="1716398950910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.Singleton.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391484441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Builder.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestPrototype.ic" NAME="TestPrototype Coverage Results" MODIFIED="1716400163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.Prototype.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAbstractFactory.ic" NAME="TestAbstractFactory Coverage Results" MODIFIED="1716476149242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.AbstractFactory.*</FILTER>
     </SUITE>
   </component>
 </project>
