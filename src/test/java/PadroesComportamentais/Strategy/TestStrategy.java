@@ -12,24 +12,24 @@ public class TestStrategy {
     public void metodoCartaoCredito() {
         ProcessadorPagamento processador = new ProcessadorPagamento();
         processador.setPagamentoStrategy(new Credito("1234567890123456", "João", "123", "12/23"));
-        String result = processador.processarPagamento(100.0);
-        assertEquals("Pago 100.0 usando Cartão de Crédito.", result);
+        String resultado = processador.processarPagamento(100.0);
+        assertEquals("Pago 100.0 usando Cartão de Crédito.", resultado);
     }
 
     @Test
     public void metodoPayPal() {
         ProcessadorPagamento processador = new ProcessadorPagamento();
         processador.setPagamentoStrategy(new PayPal("joao@gmail.com", "123456"));
-        String result = processador.processarPagamento(200.0);
-        assertEquals("Pago 200.0 usando PayPal.", result);
+        String resultado = processador.processarPagamento(200.0);
+        assertEquals("Pago 200.0 usando PayPal.", resultado);
     }
 
     @Test
     public void metodoTransferenciaBancaria() {
         ProcessadorPagamento processador = new ProcessadorPagamento();
         processador.setPagamentoStrategy(new TransferenciaBancaria("123456789", "001"));
-        String result = processador.processarPagamento(300.0);
-        assertEquals("Pago 300.0 por Transferência Bancária.", result);
+        String resultado = processador.processarPagamento(300.0);
+        assertEquals("Pago 300.0 por Transferência Bancária.", resultado);
     }
 
     @Test
