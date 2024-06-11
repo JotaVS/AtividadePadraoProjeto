@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Builder Implementação e Teste">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaAbstrata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaNotaDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/FabricaNotaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscalDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/NotaFiscalFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/AbstractFactory/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Bicicleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Moto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/FactoryMethod/VeiculoFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Prototype/Figura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesCriacao/Singleton/PlayerMusica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/AbstractFactory/TestAbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/FactoryMethod/TestFactoryMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/Prototype/TestPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesCriacao/Singleton/TestSingleton.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="State">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Decorator/CabecalhoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Decorator/DocumentoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Decorator/DocumentoSimples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Decorator/IDocumento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Decorator/RodapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesEstruturais/Decorator/TestDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +18,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -69,18 +62,32 @@
   "keyToString": {
     "JUnit.TestAbstractFactory.Teste.executor": "Run",
     "JUnit.TestAbstractFactory.executor": "Coverage",
+    "JUnit.TestAdapter.executor": "Run",
+    "JUnit.TestBridge.executor": "Coverage",
     "JUnit.TestBuilder.executor": "Coverage",
+    "JUnit.TestComposite.adicionarEmpregado.executor": "Run",
+    "JUnit.TestComposite.executor": "Coverage",
+    "JUnit.TestComposite.removerEmpregado.executor": "Run",
+    "JUnit.TestComposite.retornarDepartamento.executor": "Run",
+    "JUnit.TestComposite.retornarEmpregado.executor": "Run",
+    "JUnit.TestDecorator.testDecorator.executor": "Run",
     "JUnit.TestFactoryMethod.executor": "Coverage",
     "JUnit.TestFactoryMethod.testCriarCarro.executor": "Run",
     "JUnit.TestFactoryMethod.testVeiculoInexistente.executor": "Run",
+    "JUnit.TestObserver.executor": "Run",
+    "JUnit.TestObserver.retornarUltimoEvento.executor": "Run",
+    "JUnit.TestObserver.testar.executor": "Run",
     "JUnit.TestPrototype.executor": "Coverage",
     "JUnit.TestSingleton.executor": "Coverage",
+    "JUnit.TestState.deveAceitarMoeda.executor": "Run",
+    "JUnit.TestState.deveAceitarMoedaJukeboxParada.executor": "Run",
+    "JUnit.TestState.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Padrao Projetos/Exemplos Professor",
+    "last_opened_file_path": "D:/Padrao Projetos/EntregaFinalPadraopProjeto/AtividadePadraoProjeto/src/test/java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -89,83 +96,90 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java" />
+      <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\main\java\PadroesComportamentais\Observer" />
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java\PadroesCriacao" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PadroesEstruturais.Decorator" />
+      <recent name="PadroesEstruturais.Bridge" />
+      <recent name="PadroesComportamentais.Observer" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAbstractFactory">
-    <configuration name="TestAbstractFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDecorator">
+    <configuration name="TestComposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesCriacao.AbstractFactory.*" />
+          <option name="PATTERN" value="PadroesEstruturais.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.AbstractFactory" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.AbstractFactory.TestAbstractFactory" />
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Composite" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Composite.TestComposite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAbstractFactory.TesteEmitirNotaFisica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComposite.adicionarEmpregado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesCriacao.AbstractFactory.*" />
+          <option name="PATTERN" value="PadroesEstruturais.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.AbstractFactory" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.AbstractFactory.TestAbstractFactory" />
-      <option name="METHOD_NAME" value="TesteEmitirNotaFisica" />
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Composite" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Composite.TestComposite" />
+      <option name="METHOD_NAME" value="adicionarEmpregado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFactoryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestComposite.removerEmpregado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
+          <option name="PATTERN" value="PadroesEstruturais.Composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Composite" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Composite.TestComposite" />
+      <option name="METHOD_NAME" value="removerEmpregado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesEstruturais.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Decorator" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Decorator.TestDecorator" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFactoryMethod.testCriarCarro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDecorator.testDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
+          <option name="PATTERN" value="PadroesEstruturais.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
-      <option name="METHOD_NAME" value="testCriarCarro" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestFactoryMethod.testVeiculoInvalido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadePadraoProjeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PadroesCriacao.FactoryMethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PadroesCriacao.FactoryMethod" />
-      <option name="MAIN_CLASS_NAME" value="PadroesCriacao.FactoryMethod.TestFactoryMethod" />
-      <option name="METHOD_NAME" value="testVeiculoInvalido" />
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Decorator" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Decorator.TestDecorator" />
+      <option name="METHOD_NAME" value="testDecorator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAbstractFactory" />
-        <item itemvalue="JUnit.TestAbstractFactory.TesteEmitirNotaFisica" />
-        <item itemvalue="JUnit.TestFactoryMethod" />
-        <item itemvalue="JUnit.TestFactoryMethod.testVeiculoInvalido" />
-        <item itemvalue="JUnit.TestFactoryMethod.testCriarCarro" />
+        <item itemvalue="JUnit.TestDecorator" />
+        <item itemvalue="JUnit.TestDecorator.testDecorator" />
+        <item itemvalue="JUnit.TestComposite" />
+        <item itemvalue="JUnit.TestComposite.removerEmpregado" />
+        <item itemvalue="JUnit.TestComposite.adicionarEmpregado" />
       </list>
     </recent_temporary>
   </component>
@@ -198,19 +212,82 @@
       <option name="project" value="LOCAL" />
       <updated>1716391577082</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Padroes de Criação Implementação e Teste">
+      <option name="closed" value="true" />
+      <created>1716476607002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716476607002</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bridge">
+      <option name="closed" value="true" />
+      <created>1718129200191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129200191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adapter">
+      <option name="closed" value="true" />
+      <created>1718129223588</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129223588</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Composite">
+      <option name="closed" value="true" />
+      <created>1718129248079</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129248079</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Observer">
+      <option name="closed" value="true" />
+      <created>1718129276193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129276193</updated>
+    </task>
+    <task id="LOCAL-00007" summary="State">
+      <option name="closed" value="true" />
+      <created>1718129294814</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718129294814</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Builder Implementação e Teste" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder Implementação e Teste" />
+    <MESSAGE value="Padroes de Criação Implementação e Teste" />
+    <MESSAGE value="Bridge" />
+    <MESSAGE value="Adapter" />
+    <MESSAGE value="Composite" />
+    <MESSAGE value="Observer" />
+    <MESSAGE value="State" />
+    <option name="LAST_COMMIT_MESSAGE" value="State" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestSingleton.ic" NAME="TestSingleton Coverage Results" MODIFIED="1716398950910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Singleton.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.Observer.Usuario</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestComposite.ic" NAME="TestComposite Coverage Results" MODIFIED="1718128932104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Composite.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAdapter.ic" NAME="TestAdapter Coverage Results" MODIFIED="1718115693755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Adapter.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391484441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Builder.*</FILTER>
@@ -220,6 +297,12 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAbstractFactory.ic" NAME="TestAbstractFactory Coverage Results" MODIFIED="1716476149242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.AbstractFactory.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestState.ic" NAME="TestState Coverage Results" MODIFIED="1717635534128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.State.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBridge.ic" NAME="TestBridge Coverage Results" MODIFIED="1718118271684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Bridge.*</FILTER>
     </SUITE>
   </component>
 </project>
