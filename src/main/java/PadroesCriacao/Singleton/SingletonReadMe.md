@@ -8,11 +8,11 @@
   - private String musicaAtual: A música atualmente sendo reproduzida.
 
 ### Métodos:
-	- public static PlayerMusica getInstance(): Método estático que retorna a única instância da classe PlayerMusica. Se a instância ainda não foi criada, cria uma nova.
+  - public static PlayerMusica getInstance(): Método estático que retorna a única instância da classe PlayerMusica. Se a instância ainda não foi criada, cria uma nova.
   - public void setMusicaAtual(String musica): Método que define a música atual a ser reproduzida, recebe uma string “musica” e passa o valor para a variável “musicaAtual”
   - public String getMusicaAtual(): Método que retorna a música atualmente sendo reproduzida, buscando seu nome na variável “musicaAtual” e retornando em formato de string.
 
-## TestSingleton
+## TestSingleton.java
   A classe TestSingleton testa a implementação da classe PlayerMusica para garantir que siga o padrão Singleton e que as funcionalidades principais estão funcionando conforme esperado.
 
 ### deveObterInstanciaUnicaDoPlayer(): 
