@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Decorator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Strategy/Credito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Strategy/PagamentoStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Strategy/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Strategy/ProcessadorPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Strategy/TransferenciaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesComportamentais/Strategy/TestStrategy.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Strategy">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Facade/DvdPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Facade/HomeTheaterFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Facade/Projetor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Facade/SoundBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesEstruturais/Facade/TestFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,6 +69,7 @@
     "JUnit.TestComposite.retornarEmpregado.executor": "Run",
     "JUnit.TestDecorator.executor": "Coverage",
     "JUnit.TestDecorator.testDecorator.executor": "Run",
+    "JUnit.TestFacade.executor": "Coverage",
     "JUnit.TestFactoryMethod.executor": "Coverage",
     "JUnit.TestFactoryMethod.testCriarCarro.executor": "Run",
     "JUnit.TestFactoryMethod.testVeiculoInexistente.executor": "Run",
@@ -77,7 +81,7 @@
     "JUnit.TestState.deveAceitarMoeda.executor": "Run",
     "JUnit.TestState.deveAceitarMoedaJukeboxParada.executor": "Run",
     "JUnit.TestState.executor": "Coverage",
-    "JUnit.TestStrategy.executor": "Run",
+    "JUnit.TestStrategy.executor": "Coverage",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -97,12 +101,13 @@
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java\PadroesCriacao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PadroesEstruturais.Facade" />
       <recent name="PadroesEstruturais.Decorator" />
       <recent name="PadroesEstruturais.Bridge" />
       <recent name="PadroesComportamentais.Observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestStrategy">
+  <component name="RunManager" selected="JUnit.TestFacade">
     <configuration name="TestComposite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -114,22 +119,6 @@
       <option name="PACKAGE_NAME" value="PadroesEstruturais.Composite" />
       <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Composite.TestComposite" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestComposite.removerEmpregado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadePadraoProjeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Composite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Composite" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Composite.TestComposite" />
-      <option name="METHOD_NAME" value="removerEmpregado" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,6 +154,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesEstruturais.Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Facade" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Facade.TestFacade" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -182,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFacade" />
         <item itemvalue="JUnit.TestStrategy" />
         <item itemvalue="JUnit.TestDecorator" />
         <item itemvalue="JUnit.TestDecorator.testDecorator" />
         <item itemvalue="JUnit.TestComposite" />
-        <item itemvalue="JUnit.TestComposite.removerEmpregado" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +267,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718131930948</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Strategy">
+      <option name="closed" value="true" />
+      <created>1718147842495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718147842495</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Strategy">
+      <option name="closed" value="true" />
+      <created>1718147921065</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718147921065</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,32 +295,21 @@
     <MESSAGE value="Observer" />
     <MESSAGE value="State" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestSingleton.ic" NAME="TestSingleton Coverage Results" MODIFIED="1716398950910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>PadroesCriacao.Singleton.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestDecorator.ic" NAME="TestDecorator Coverage Results" MODIFIED="1718131894328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>PadroesEstruturais.Decorator.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Observer.Usuario</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestStrategy.ic" NAME="TestStrategy Coverage Results" MODIFIED="1718147812923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.Strategy.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestComposite.ic" NAME="TestComposite Coverage Results" MODIFIED="1718128932104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Composite.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAdapter.ic" NAME="TestAdapter Coverage Results" MODIFIED="1718115693755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>PadroesEstruturais.Adapter.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391484441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Builder.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestPrototype.ic" NAME="TestPrototype Coverage Results" MODIFIED="1716400163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>PadroesCriacao.Prototype.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAbstractFactory.ic" NAME="TestAbstractFactory Coverage Results" MODIFIED="1716476149242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.AbstractFactory.*</FILTER>
@@ -310,6 +319,21 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBridge.ic" NAME="TestBridge Coverage Results" MODIFIED="1718118271684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Bridge.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestSingleton.ic" NAME="TestSingleton Coverage Results" MODIFIED="1716398950910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.Singleton.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestDecorator.ic" NAME="TestDecorator Coverage Results" MODIFIED="1718131894328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Decorator.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAdapter.ic" NAME="TestAdapter Coverage Results" MODIFIED="1718115693755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Adapter.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestPrototype.ic" NAME="TestPrototype Coverage Results" MODIFIED="1716400163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesCriacao.Prototype.*</FILTER>
     </SUITE>
   </component>
 </project>
