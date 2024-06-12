@@ -1,37 +1,58 @@
 package PadroesCriacao.Prototype;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class TestPrototype {
-
-    @Test
-    public void figurasIguais() throws Exception {
-        Figura figuraOriginal = new Figura("Círculo", "Vermelho", 10, 20);
-
-        Figura figuraClone = figuraOriginal.clone();
-
-        assertEquals(figuraOriginal.getNome(), figuraClone.getNome());
-        assertEquals(figuraOriginal.getCor(), figuraClone.getCor());
-        assertEquals(figuraOriginal.getX(), figuraClone.getX());
-        assertEquals(figuraOriginal.getY(), figuraClone.getY());
+    Figura figuraOriginal;
+    Figura figuraClone;
+    @Before
+    public void criarPrototipo() throws Exception{
+        figuraOriginal = new Figura("Círculo", "Vermelho", 10, 20);
+        figuraClone = figuraOriginal.clone();
     }
 
     @Test
-    public void figurasDiferente() throws Exception{
-        Figura figuraOriginal = new Figura("Círculo", "Vermelho", 10, 20);
+    public void nomesIguais() throws Exception {
+        assertEquals(figuraOriginal.getNome(), figuraClone.getNome());
+    }
+    @Test
+    public void coresIguais() throws Exception {
+        assertEquals(figuraOriginal.getCor(), figuraClone.getCor());
+    }
 
-        Figura figuraClone = figuraOriginal.clone();
+    @Test
+    public void coordenadasXIguais() throws Exception {
+        assertEquals(figuraOriginal.getX(), figuraClone.getX());
+    }
 
+    @Test
+    public void coordenadasYIguais() throws Exception {
+        assertEquals(figuraOriginal.getY(), figuraClone.getY());
+    }
+    @Test
+    public void nomesDiferentes() throws Exception {
         figuraClone.setNome("Quadrado");
-        figuraClone.setCor("Azul");
         assertNotEquals(figuraOriginal.getNome(), figuraClone.getNome());
-        assertNotEquals(figuraOriginal.getCor(), figuraClone.getCor());
+    }
 
+    @Test
+    public void coresDiferentes() throws Exception {
+        figuraClone.setCor("Azul");
+        assertNotEquals(figuraOriginal.getCor(), figuraClone.getCor());
+    }
+
+    @Test
+    public void coordenadasXDiferentes() throws Exception {
         figuraClone.setX(5);
-        figuraClone.setY(10);
         assertNotEquals(figuraOriginal.getX(), figuraClone.getX());
+    }
+
+    @Test
+    public void coordenadasYDiferenes() throws Exception {
+        figuraClone.setY(10);
         assertNotEquals(figuraOriginal.getY(), figuraClone.getY());
     }
 }
