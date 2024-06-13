@@ -51,7 +51,7 @@ public class TestPrototype {
     }
 
     @Test
-    public void coordenadasYDiferenes() throws Exception {
+    public void coordenadasYDiferentes() throws Exception {
         figuraClone.setY(10);
         assertNotEquals(figuraOriginal.getY(), figuraClone.getY());
     }
