@@ -4,19 +4,19 @@ A interface `FabricaAbstrata` define o método `emitirNota`, que é responsável
 
 ### Método:
 -   `NotaFiscal emitirNota()`: Método abstrato que deve ser implementado pelas subclasses para emitir uma nota fiscal.
-- 
+  
 ## FabricaNotaDigital.java
 A classe `FabricaNotaDigital` implementa a interface `FabricaAbstrata` e é responsável por emitir notas fiscais digitais. O método `emitirNota` retorna uma instância de `NotaFiscalDigital`.
 
 ### Método:
 -   `NotaFiscal emitirNota()`: Retorna uma instância de `NotaFiscalDigital`.
-- 
+  
 ## FabricaNotaFisica.java
 A classe `FabricaNotaFisica` também implementa a interface `FabricaAbstrata` e é responsável por emitir notas fiscais físicas. O método `emitirNota` retorna uma instância de `NotaFiscalFisica`.
 
 ### Método:
 -   `NotaFiscal emitirNota()`: Retorna uma instância de `NotaFiscalFisica`.
-- 
+  
 ## NotaFiscal.java
 A interface `NotaFiscal` define o método `emitir`, que retorna uma string representando a nota fiscal emitida.
 
@@ -28,13 +28,13 @@ A classe `NotaFiscalDigital` implementa a interface `NotaFiscal` e representa um
 
 ### Método:
 -   `String emitir()`: Retorna a string "Nota Fiscal Digital."
-- 
+  
 ## NotaFiscalFisica.java
 A classe `NotaFiscalFisica` implementa a interface `NotaFiscal` e representa uma nota fiscal física. O método `emitir` retorna uma string que indica que uma nota fiscal física foi emitida.
 
 ### Método:
 -   `String emitir()`: Retorna a string "Nota Fiscal Fisica."
-- 
+  
 ## Pedido.java
 A classe `Pedido` possui um atributo `notaFiscal` do tipo `NotaFiscal` e um construtor que recebe uma fábrica abstrata (`FabricaAbstrata`). O método `emitirNotaFiscal` utiliza a instância de `NotaFiscal` para emitir a nota fiscal correspondente.
 
