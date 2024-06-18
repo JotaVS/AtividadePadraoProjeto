@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Facade">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/Arvore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/ArvoreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/Parque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/TipoArvore.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Flyweight">
       <change afterPath="$PROJECT_DIR$/src/test/java/PadroesEstruturais/Flyweight/TestFlyweight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/Parque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/Parque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/TipoArvore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesEstruturais/Flyweight/TipoArvore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,9 @@
     "JUnit.TestFactoryMethod.executor": "Coverage",
     "JUnit.TestFactoryMethod.testCriarCarro.executor": "Run",
     "JUnit.TestFactoryMethod.testVeiculoInexistente.executor": "Run",
-    "JUnit.TestFlyweight.executor": "Run",
+    "JUnit.TestFlyweight.executor": "Debug",
+    "JUnit.TestFlyweight.testArvoreFactory.executor": "Debug",
+    "JUnit.TestFlyweight.testDrawPark.executor": "Run",
     "JUnit.TestObserver.executor": "Run",
     "JUnit.TestObserver.retornarUltimoEvento.executor": "Run",
     "JUnit.TestObserver.testar.executor": "Run",
@@ -109,37 +109,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestFlyweight">
-    <configuration name="TestDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadePadraoProjeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Decorator" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Decorator.TestDecorator" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDecorator.testDecorator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadePadraoProjeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Decorator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Decorator" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Decorator.TestDecorator" />
-      <option name="METHOD_NAME" value="testDecorator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFacade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -170,6 +139,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestFlyweight.testArvoreFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesEstruturais.Flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Flyweight" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Flyweight.TestFlyweight" />
+      <option name="METHOD_NAME" value="testArvoreFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFlyweight.testGetParque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesEstruturais.Flyweight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Flyweight" />
+      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Flyweight.TestFlyweight" />
+      <option name="METHOD_NAME" value="testGetParque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestStrategy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -188,10 +189,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestFlyweight" />
+        <item itemvalue="JUnit.TestFlyweight.testGetParque" />
+        <item itemvalue="JUnit.TestFlyweight.testArvoreFactory" />
         <item itemvalue="JUnit.TestFacade" />
         <item itemvalue="JUnit.TestStrategy" />
-        <item itemvalue="JUnit.TestDecorator" />
-        <item itemvalue="JUnit.TestDecorator.testDecorator" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718212196785</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Flyweight">
+      <option name="closed" value="true" />
+      <created>1718223108261</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718223108261</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,7 +326,19 @@
     <MESSAGE value="Decorator" />
     <MESSAGE value="Strategy" />
     <MESSAGE value="Facade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facade" />
+    <MESSAGE value="Flyweight" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flyweight" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/PadroesEstruturais/Flyweight/TestFlyweight.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -350,10 +371,13 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestDecorator.ic" NAME="TestDecorator Coverage Results" MODIFIED="1718131894328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Decorator.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFlyweight_testArvoreFactory.ic" NAME="TestFlyweight.testArvoreFactory Coverage Results" MODIFIED="1718733551006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesEstruturais.Flyweight.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFlyweight.ic" NAME="TestFlyweight Coverage Results" MODIFIED="1718222307217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFlyweight.ic" NAME="TestFlyweight Coverage Results" MODIFIED="1718733577257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Flyweight.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAdapter.ic" NAME="TestAdapter Coverage Results" MODIFIED="1718115693755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">

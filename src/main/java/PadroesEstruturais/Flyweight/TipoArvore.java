@@ -12,7 +12,6 @@ public class TipoArvore {
         this.textura = textura;
     }
 
-    // Getters for testing and toString for demonstration
     public String getNome() {
         return nome;
     }
