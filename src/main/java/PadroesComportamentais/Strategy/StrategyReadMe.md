@@ -63,8 +63,6 @@ A classe `ProcessadorPagamento` utiliza uma instância de `PagamentoStrategy` pa
 
 O `TestStrategy.java` contém testes unitários para validar o comportamento do processamento de pagamentos utilizando diferentes estratégias (`Credito`, `PayPal`, `TransferenciaBancaria`) implementadas com o padrão Strategy.
 
-#### Métodos de Teste:
-
 #### `public void metodoCartaoCredito()`
 
 -   **Objetivo:** Verificar o processamento de pagamento usando Cartão de Crédito.
