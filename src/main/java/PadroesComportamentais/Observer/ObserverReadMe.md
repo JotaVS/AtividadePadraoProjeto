@@ -1,7 +1,4 @@
 # Padrão Observer - Evento e Observadores
-
-## Introdução
-
 Este projeto implementa o padrão Observer para permitir que objetos sejam notificados quando o estado de outro objeto muda.
 
 ## Classes e Interfaces
