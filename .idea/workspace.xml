@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="ChainOfResponsability">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/Garcom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoMacarrao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoSalada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/ReceptorPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesComportamentais/Command/TestCommand.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Command">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Iterator/Colecao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Iterator/ColecaoJogos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Iterator/Jogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesComportamentais/Iterator/TestIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +64,7 @@
     "JUnit.TestBuilder.executor": "Coverage",
     "JUnit.TestChainOfResponsability.executor": "Coverage",
     "JUnit.TestChainOfResponsability.testePedidoSuporteBaixo.executor": "Debug",
-    "JUnit.TestCommand.executor": "Run",
+    "JUnit.TestCommand.executor": "Coverage",
     "JUnit.TestComposite.adicionarEmpregado.executor": "Run",
     "JUnit.TestComposite.executor": "Coverage",
     "JUnit.TestComposite.removerEmpregado.executor": "Run",
@@ -81,6 +79,9 @@
     "JUnit.TestFlyweight.executor": "Coverage",
     "JUnit.TestFlyweight.testArvoreFactory.executor": "Debug",
     "JUnit.TestFlyweight.testDrawPark.executor": "Run",
+    "JUnit.TestIterator.executor": "Coverage",
+    "JUnit.TestIterator.testSetFinalizado.executor": "Run",
+    "JUnit.TestIterator.testar.executor": "Run",
     "JUnit.TestObserver.executor": "Run",
     "JUnit.TestObserver.retornarUltimoEvento.executor": "Run",
     "JUnit.TestObserver.testar.executor": "Run",
@@ -97,7 +98,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Padrao Projetos/EntregaFinalPadraopProjeto/AtividadePadraoProjeto/src/test/java",
+    "last_opened_file_path": "D:/Padrao Projetos/EntregaFinalPadraopProjeto/AtividadePadraoProjeto/src/main/java/PadroesComportamentais/Iterator",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -106,6 +107,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\main\java\PadroesComportamentais\Iterator" />
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java" />
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\main\java\PadroesComportamentais\Observer" />
       <recent name="D:\Padrao Projetos\EntregaFinalPadraopProjeto\AtividadePadraoProjeto\src\test\java\PadroesCriacao" />
@@ -117,7 +119,7 @@
       <recent name="PadroesComportamentais.Observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCommand">
+  <component name="RunManager" selected="JUnit.TestIterator">
     <configuration name="TestChainOfResponsability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -129,22 +131,6 @@
       <option name="PACKAGE_NAME" value="PadroesComportamentais.ChainOfResponsability" />
       <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.ChainOfResponsability.TestChainOfResponsability" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestChainOfResponsability.testePedidoSuporteBaixo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AtividadePadraoProjeto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PadroesComportamentais.ChainOfResponsability.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="PadroesComportamentais.ChainOfResponsability" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.ChainOfResponsability.TestChainOfResponsability" />
-      <option name="METHOD_NAME" value="testePedidoSuporteBaixo" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,32 +150,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Proxy.*" />
+          <option name="PATTERN" value="PadroesComportamentais.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Proxy" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Proxy.TestProxy" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.Iterator" />
+      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Iterator.TestIterator" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProxy.testeRetirarSaldoInsuficiente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestIterator.testIteratorQuantidade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Proxy.*" />
+          <option name="PATTERN" value="PadroesComportamentais.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Proxy" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Proxy.TestProxy" />
-      <option name="METHOD_NAME" value="testeRetirarSaldoInsuficiente" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.Iterator" />
+      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Iterator.TestIterator" />
+      <option name="METHOD_NAME" value="testIteratorQuantidade" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestIterator.testSetFinalizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AtividadePadraoProjeto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PadroesComportamentais.Iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.Iterator" />
+      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Iterator.TestIterator" />
+      <option name="METHOD_NAME" value="testSetFinalizado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestIterator" />
+        <item itemvalue="JUnit.TestIterator.testSetFinalizado" />
+        <item itemvalue="JUnit.TestIterator.testIteratorQuantidade" />
         <item itemvalue="JUnit.TestCommand" />
         <item itemvalue="JUnit.TestChainOfResponsability" />
-        <item itemvalue="JUnit.TestChainOfResponsability.testePedidoSuporteBaixo" />
-        <item itemvalue="JUnit.TestProxy" />
-        <item itemvalue="JUnit.TestProxy.testeRetirarSaldoInsuficiente" />
       </list>
     </recent_temporary>
   </component>
@@ -342,7 +344,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718741583838</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Command">
+      <option name="closed" value="true" />
+      <created>1718827890342</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1718827890343</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,7 +382,8 @@
     <MESSAGE value="Proxy" />
     <MESSAGE value="TestProxy update" />
     <MESSAGE value="ChainOfResponsability" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChainOfResponsability" />
+    <MESSAGE value="Command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Command" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -383,6 +394,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestComposite.ic" NAME="TestComposite Coverage Results" MODIFIED="1718128932104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Composite.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestCommand.ic" NAME="TestCommand Coverage Results" MODIFIED="1718827853919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.Command.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391484441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Builder.*</FILTER>
@@ -410,6 +424,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFlyweight_testArvoreFactory.ic" NAME="TestFlyweight.testArvoreFactory Coverage Results" MODIFIED="1718733551006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Flyweight.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestIterator.ic" NAME="TestIterator Coverage Results" MODIFIED="1718832741741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.Iterator.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFactoryMethod.ic" NAME="TestFactoryMethod Coverage Results" MODIFIED="1716401378359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.FactoryMethod.*</FILTER>
