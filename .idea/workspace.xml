@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="TestProxy update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/ChainOfResponsability/AltoSuporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/ChainOfResponsability/BaixoSuporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/ChainOfResponsability/ManipuladorSuporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/ChainOfResponsability/MedioSuporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/ChainOfResponsability/PedidoSuporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesComportamentais/ChainOfResponsability/TestChainOfResponsability.java" afterDir="false" />
+    <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="ChainOfResponsability">
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/Garcom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoMacarrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoPizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/PedidoSalada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Command/ReceptorPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PadroesComportamentais/Command/TestCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +64,9 @@
     "JUnit.TestAdapter.executor": "Run",
     "JUnit.TestBridge.executor": "Coverage",
     "JUnit.TestBuilder.executor": "Coverage",
-    "JUnit.TestChainOfResponsability.executor": "Run",
-    "JUnit.TestChainOfResponsability.testePedidoSuporteBaixo.executor": "Run",
+    "JUnit.TestChainOfResponsability.executor": "Coverage",
+    "JUnit.TestChainOfResponsability.testePedidoSuporteBaixo.executor": "Debug",
+    "JUnit.TestCommand.executor": "Run",
     "JUnit.TestComposite.adicionarEmpregado.executor": "Run",
     "JUnit.TestComposite.executor": "Coverage",
     "JUnit.TestComposite.removerEmpregado.executor": "Run",
@@ -115,7 +117,7 @@
       <recent name="PadroesComportamentais.Observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestChainOfResponsability">
+  <component name="RunManager" selected="JUnit.TestCommand">
     <configuration name="TestChainOfResponsability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
@@ -147,16 +149,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFlyweight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCommand" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesEstruturais.Flyweight.*" />
+          <option name="PATTERN" value="PadroesComportamentais.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesEstruturais.Flyweight" />
-      <option name="MAIN_CLASS_NAME" value="PadroesEstruturais.Flyweight.TestFlyweight" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.Command" />
+      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Command.TestCommand" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestCommand" />
         <item itemvalue="JUnit.TestChainOfResponsability" />
         <item itemvalue="JUnit.TestChainOfResponsability.testePedidoSuporteBaixo" />
         <item itemvalue="JUnit.TestProxy" />
         <item itemvalue="JUnit.TestProxy.testeRetirarSaldoInsuficiente" />
-        <item itemvalue="JUnit.TestFlyweight" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +334,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718737619285</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ChainOfResponsability">
+      <option name="closed" value="true" />
+      <created>1718741583838</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1718741583838</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,7 +371,8 @@
     <MESSAGE value="Flyweight Update" />
     <MESSAGE value="Proxy" />
     <MESSAGE value="TestProxy update" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestProxy update" />
+    <MESSAGE value="ChainOfResponsability" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChainOfResponsability" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -411,6 +422,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestPrototype.ic" NAME="TestPrototype Coverage Results" MODIFIED="1716400163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Prototype.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestChainOfResponsability.ic" NAME="TestChainOfResponsability Coverage Results" MODIFIED="1718768847660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>PadroesComportamentais.ChainOfResponsability.*</FILTER>
     </SUITE>
   </component>
 </project>
