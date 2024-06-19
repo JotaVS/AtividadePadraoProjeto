@@ -1,5 +1,4 @@
 # Padrão Strategy - Processador de Pagamentos
-## Introdução
 Este projeto implementa o padrão de design Strategy para modelar diferentes métodos de pagamento. Neste caso, implementamos três estratégias de pagamento: cartão de crédito, PayPal e transferência bancária.
 
 ## Classes
@@ -63,8 +62,6 @@ A classe `ProcessadorPagamento` utiliza uma instância de `PagamentoStrategy` pa
 ### TestStrategy.java
 
 O `TestStrategy.java` contém testes unitários para validar o comportamento do processamento de pagamentos utilizando diferentes estratégias (`Credito`, `PayPal`, `TransferenciaBancaria`) implementadas com o padrão Strategy.
-
-#### Métodos de Teste:
 
 #### `public void metodoCartaoCredito()`
 
