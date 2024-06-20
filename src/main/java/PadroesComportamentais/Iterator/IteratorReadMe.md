@@ -68,3 +68,39 @@ A classe `Jogo` representa um jogo com nome e status de finalização.
 -   `public String getNome()`: Retorna o nome do jogo.
 -   `public boolean getFinalizado()`: Retorna o status de finalização do jogo.
 -   `public void setFinalizado(boolean finalizado)`: Define o status de finalização do jogo.
+
+
+### TestIterator.java
+
+O `TestIterator.java` contém testes unitários para verificar o funcionamento do padrão de design Iterator no projeto de coleção de jogos.
+
+#### `public void testIteratorQuantidade()`
+
+-   **Objetivo:** Verificar a contagem de jogos que foram finalizados na coleção.
+
+-   **Método:**
+
+    -   Criar uma instância de `ColecaoJogos`.
+    -   Adicionar quatro jogos à coleção, com diferentes valores para o atributo `finalizado`.
+    -   Criar um iterador para a coleção de jogos.
+    -   Iterar sobre a coleção usando o iterador, contando o número de jogos que foram finalizados (`finalizado` é `true`).
+    -   Verificar se a contagem corresponde ao valor esperado.
+-   **Resultado Esperado:**
+
+    -   A contagem de jogos finalizados deve ser 3.
+
+#### `public void testSetFinalizado()`
+
+-   **Objetivo:** Verificar se é possível modificar o atributo `finalizado` de um jogo durante a iteração e contar corretamente os jogos finalizados após a modificação.
+
+-   **Método:**
+
+    -   Criar uma instância de `ColecaoJogos`.
+    -   Adicionar quatro jogos à coleção, com diferentes valores para o atributo `finalizado`.
+    -   Criar um iterador para a coleção de jogos.
+    -   Iterar sobre a coleção usando o iterador, modificando o atributo `finalizado` do jogo "Red Dead Redemption 2" para `true`.
+    -   Contar o número de jogos que foram finalizados após a modificação.
+    -   Verificar se a contagem corresponde ao valor esperado.
+-   **Resultado Esperado:**
+
+    -   A contagem de jogos finalizados deve ser 4.

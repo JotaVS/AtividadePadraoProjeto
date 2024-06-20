@@ -77,3 +77,24 @@ A classe `UsuarioDesconhecido` representa um usuário de tipo desconhecido que h
 #### Construtor
 
 -   `public UsuarioDesconhecido(String nome, Mediator mediator)`: Inicializa um usuário desconhecido com um nome e um mediador.
+
+### TestMediator.java
+
+O `TestMediator.java` para verificar o funcionamento de uma sala de chat que gerencia a comunicação entre diferentes tipos de usuários.
+
+#### `public void testChat()`
+
+-   **Objetivo:** Verificar a comunicação entre diferentes tipos de usuários (Funcionário, Cliente e Usuário Desconhecido) através do mediador.
+
+-   **Método:**
+
+    -   Criar duas instâncias de `ChatRoom`, uma para funcionários e outra para clientes.
+    -   Criar uma instância de `ConcreteMediator`, passando as salas de chat criadas.
+    -   Criar instâncias de `Funcionario`, `Cliente`, e `UsuarioDesconhecido`, associando cada uma ao mediador criado.
+    -   Cada usuário envia uma mensagem usando o método `sendMessage`.
+    -   Verificar se as mensagens enviadas retornam os resultados esperados.
+-   **Resultado Esperado:**
+
+    -   A mensagem enviada pelo funcionário deve ser `"Alice (Funcionario) disse: Olá, pessoal! (enviado para Chat Funcionarios)"`.
+    -   A mensagem enviada pelo cliente deve ser `"Bob (Cliente) disse: Olá, empresa! (enviado para Chat Clientes)"`.
+    -   A mensagem enviada pelo usuário desconhecido deve ser `"Tipo de Usuario Desconhecido!"`.

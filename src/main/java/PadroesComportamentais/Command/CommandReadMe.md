@@ -80,3 +80,53 @@ A classe `ReceptorPedido` é responsável por processar os pedidos reais, fornec
 -   `public String preparePizza()`: Prepara uma pizza e retorna uma mensagem.
 -   `public String prepareMacarrao()`: Prepara um macarrão e retorna uma mensagem.
 -   `public String prepareSalada()`: Prepara uma salada e retorna uma mensagem.
+
+
+### TestCommand.java
+
+O `TestCommand.java` busca verificar o comportamento do padrão de design Command no contexto de um sistema de pedidos em um restaurante. Os testes verificam se os comandos para diferentes tipos de pedidos (Pizza, Macarrão, Salada) são corretamente processados.
+
+#### `public void testPedidoPizza()`
+
+-   **Objetivo:** Verificar o processamento de um pedido de pizza.
+
+-   **Método:**
+
+    -   Criar uma instância de `ReceptorPedido`.
+    -   Criar uma instância de `PedidoPizza` passando o receptor criado.
+    -   Criar uma instância de `Garcom` e configurar o comando como `PedidoPizza`.
+    -   Chamar o método `anotarPedido` no garçom.
+    -   Verificar se o resultado indica que a pizza está sendo feita.
+-   **Resultado Esperado:**
+
+    -   O resultado deve ser `"A Pizza está sendo feita."`.
+
+#### `public void testPedidoMacarrao()`
+
+-   **Objetivo:** Verificar o processamento de um pedido de macarrão.
+
+-   **Método:**
+
+    -   Criar uma instância de `ReceptorPedido`.
+    -   Criar uma instância de `PedidoMacarrao` passando o receptor criado.
+    -   Criar uma instância de `Garcom` e configurar o comando como `PedidoMacarrao`.
+    -   Chamar o método `anotarPedido` no garçom.
+    -   Verificar se o resultado indica que o macarrão está sendo feito.
+-   **Resultado Esperado:**
+
+    -   O resultado deve ser `"O Macarrao está sendo feito."`.
+
+#### `public void testPedidoSalada()`
+
+-   **Objetivo:** Verificar o processamento de um pedido de salada.
+
+-   **Método:**
+
+    -   Criar uma instância de `ReceptorPedido`.
+    -   Criar uma instância de `PedidoSalada` passando o receptor criado.
+    -   Criar uma instância de `Garcom` e configurar o comando como `PedidoSalada`.
+    -   Chamar o método `anotarPedido` no garçom.
+    -   Verificar se o resultado indica que a salada está sendo feita.
+-   **Resultado Esperado:**
+
+    -   O resultado deve ser `"A Salada está sendo feita."`.
