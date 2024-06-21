@@ -118,3 +118,41 @@ A classe `StatusVisitor` implementa um visitante para gerar um relatório do sta
 -   `@Override public String visitar(Arqueiro arqueiro)`: Adiciona informações sobre o arqueiro ao relatório.
     -   `arqueiro`: A instância do arqueiro a ser visitada.
 -   `public String getRelatorio()`: Retorna o relatório acumulado.
+
+### TestVisitor.java
+
+O `TestVisitor.java` contém testes unitários para validar o comportamento do padrão de design Visitor no contexto de personagens de um jogo. Os testes verificam a funcionalidade de cálculo de dano total e geração de relatórios de status para diferentes tipos de personagens (`Guerreiro`, `Mago`, `Arqueiro`) utilizando visitantes (`CalculadorDanoVisitor` e `StatusVisitor`).
+
+#### `public void testDamageCalculatorVisitor()`
+
+-   **Objetivo:** Verificar o cálculo do dano total causado por diferentes personagens utilizando o visitante `CalculadorDanoVisitor`.
+
+-   **Método:**
+
+    -   Criar um array de `Personagem` contendo instâncias de `Guerreiro`, `Mago` e `Arqueiro` com valores específicos de poder de ataque ou mágico.
+    -   Criar uma instância de `CalculadorDanoVisitor`.
+    -   Fazer cada personagem aceitar o visitante `CalculadorDanoVisitor`, permitindo que o visitante calcule o dano total.
+    -   Verificar se o dano total calculado corresponde ao valor esperado.
+-   **Resultado Esperado:**
+
+    -   O dano total deve ser 160.
+
+#### `public void testStatusReportVisitor()`
+
+-   **Objetivo:** Verificar a geração de um relatório de status para diferentes personagens utilizando o visitante `StatusVisitor`.
+
+-   **Método:**
+
+    -   Criar um array de `Personagem` contendo instâncias de `Guerreiro`, `Mago` e `Arqueiro` com valores específicos de poder de ataque ou mágico.
+    -   Criar uma instância de `StatusVisitor`.
+    -   Fazer cada personagem aceitar o visitante `StatusVisitor`, permitindo que o visitante gere um relatório de status.
+    -   Verificar se o relatório de status gerado corresponde ao valor esperado.
+-   **Resultado Esperado:**
+
+    -   O relatório de status deve ser:
+
+        `Guerreiro: O Guerreiro, Poder de Ataque: 50`
+
+        `Mago: O Mago, Poder Mágico: 70`
+
+        `Arqueiro: O Arqueiro, Poder de Ataque à Distância: 40`

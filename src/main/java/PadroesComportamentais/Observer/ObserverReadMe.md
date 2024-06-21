@@ -60,8 +60,6 @@ A classe `Usuario` implementa a interface `Observer` e define a ação a ser tom
 
 A classe `TestObserver` testa a funcionalidade das classes `Evento` e `Usuario` para garantir que as funcionalidades principais estão funcionando conforme esperado.
 
-#### Métodos de Teste:
-
 #### public void retornarUltimoEvento()
 
 -   **Objetivo**: Verificar se o último evento anunciado é corretamente retornado.

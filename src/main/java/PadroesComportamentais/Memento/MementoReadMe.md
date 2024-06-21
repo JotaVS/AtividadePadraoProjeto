@@ -55,3 +55,41 @@ A classe `Jogo` representa o estado do jogo, incluindo o nível atual e métodos
 -   `public Checkpoint criarCheckpoint()`: Cria um checkpoint no nível atual do jogo.
 -   `public void restaurarCheckpoint(Checkpoint checkpoint)`: Restaura o jogo para o nível salvo no checkpoint.
     -   `checkpoint`: O checkpoint a partir do qual o jogo será restaurado.
+
+
+### TestMemento.java
+
+O `TestMemento.java` contém testes para validar o comportamento do padrão Memento sendo usado em um jogo que permite salvar e restaurar checkpoints. Os testes verificam a funcionalidade de avançar níveis, salvar checkpoints, restaurar checkpoints e lidar com a ausência de checkpoints salvos.
+
+#### `public void testarCheckpoint()`
+
+-   **Objetivo:** Verificar a funcionalidade de salvar e restaurar checkpoints no jogo.
+
+-   **Método:**
+
+    -   Criar uma instância do jogo (`Jogo`).
+    -   Criar uma instância do gerenciador de checkpoints (`GerenciadorCheckpoint`).
+    -   Avançar o jogo para o próximo nível.
+    -   Salvar o estado atual do jogo no gerenciador de checkpoints.
+    -   Avançar o jogo por mais dois níveis.
+    -   Verificar se o nível atual do jogo é 4.
+    -   Restaurar o checkpoint salvo.
+    -   Verificar se o nível atual do jogo foi restaurado para 2.
+-   **Resultado Esperado:**
+
+    -   Antes de restaurar o checkpoint, o nível atual deve ser 4.
+    -   Após restaurar o checkpoint, o nível atual deve ser 2.
+
+#### `public void testeCheckpointVazio()`
+
+-   **Objetivo:** Verificar o comportamento do sistema quando se tenta restaurar um checkpoint sem nenhum checkpoint salvo.
+
+-   **Método:**
+
+    -   Criar uma instância do jogo (`Jogo`).
+    -   Criar uma instância do gerenciador de checkpoints (`GerenciadorCheckpoint`).
+    -   Tentar restaurar um checkpoint sem nenhum checkpoint salvo e capturar a exceção `IllegalStateException`.
+    -   Verificar se a mensagem da exceção corresponde ao valor esperado.
+-   **Resultado Esperado:**
+
+    -   Deve ser lançada uma exceção `IllegalStateException` com a mensagem `"Nenhum checkpoint salvo."`.
