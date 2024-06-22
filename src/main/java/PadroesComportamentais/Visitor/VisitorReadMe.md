@@ -156,3 +156,6 @@ O `TestVisitor.java` contém testes unitários para validar o comportamento do p
         `Mago: O Mago, Poder Mágico: 70`
 
         `Arqueiro: O Arqueiro, Poder de Ataque à Distância: 40`
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/c31ff78f-9d70-45cc-87c5-08943e415fbe)
