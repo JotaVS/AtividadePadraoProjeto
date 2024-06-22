@@ -79,3 +79,6 @@ A classe `TestObserver` testa a funcionalidade das classes `Evento` e `Usuario` 
     -   Remover o observador.
     -   Verificar se a quantidade de observadores é 0.
 -   **Resultado Esperado**: O método `getQuantidadeObservadores` deve retornar 0.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/998b07b3-6384-4fb9-98a8-732d2fd1f160)
