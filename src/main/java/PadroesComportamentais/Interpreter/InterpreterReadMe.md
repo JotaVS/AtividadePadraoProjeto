@@ -134,3 +134,6 @@ O `TestInterpreter.java` contém testes unitários para validar o comportamento 
 -   **Resultado Esperado:**
     
     -   A saída deve ser `"Ação não reconhecida."`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/9e937197-ae0e-42f4-a5be-93fde81261cf)
