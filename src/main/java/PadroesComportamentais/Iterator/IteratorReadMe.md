@@ -104,3 +104,7 @@ O `TestIterator.java` contém testes unitários para verificar o funcionamento d
 -   **Resultado Esperado:**
 
     -   A contagem de jogos finalizados deve ser 4.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/dee5a0e4-393d-4ddc-98a8-c846ec9999da)
+
