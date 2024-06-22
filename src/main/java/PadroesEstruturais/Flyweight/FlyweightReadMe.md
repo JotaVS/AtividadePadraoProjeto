@@ -110,3 +110,7 @@ Os testes a seguir verificam o funcionamento correto das classes implementadas u
 -   **Objetivo:** Verificar se o método `getParque()` da classe `Parque` retorna corretamente a lista de representações textuais das árvores no parque.
 -   **Método:** Cria uma instância de `Parque` e chama o método `plantarArvore()` duas vezes para adicionar árvores com tipos diferentes ("Carvalho Verde Aspero" e "Pinheiro Verde Suave"). Verifica se o método `getParque()` retorna uma lista contendo as representações textuais corretas das árvores adicionadas.
 -   **Resultado Esperado:** O método `getParque()` deve retornar corretamente a lista de representações textuais das árvores no parque.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/15009d3e-ffcb-4118-b259-67e8a2c2f7be)
+
