@@ -192,3 +192,7 @@ Antes de cada teste, as instâncias de Jukebox são configuradas com diferentes 
 -   **Resultado Esperado:**
     
     -   O método `inserirMoeda()` deve retornar `false`, indicando que não é possível inserir outra moeda enquanto já há uma moeda inserida na Jukebox.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/3444b72f-a673-431d-820d-8196440209be)
+
