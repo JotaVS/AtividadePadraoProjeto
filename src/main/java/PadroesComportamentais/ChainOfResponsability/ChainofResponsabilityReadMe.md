@@ -129,3 +129,7 @@ O `TestChainOfResponsability.java` busca verificar o funcionamento do padrão Ch
 -   **Resultado Esperado:**
 
     -   O resultado deve ser `"Pedido não processado."`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/846cc6cd-04ac-4b29-8b13-ced8c5225a41)
+
