@@ -25,3 +25,5 @@ Resultado Esperado: As duas instâncias obtidas devem ser a mesma (singleton).
   - Método: Chamar PlayerMusica.getInstance(), definir uma música usando setMusicaAtual, e verificar se a música atual é a mesma usando getMusicaAtual.
   - Resultado Esperado: A música configurada deve ser recuperada corretamente.
 
+## Comprovação dos Testes
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/8d853e85-beb4-4f9b-9b53-61890f184e54)
