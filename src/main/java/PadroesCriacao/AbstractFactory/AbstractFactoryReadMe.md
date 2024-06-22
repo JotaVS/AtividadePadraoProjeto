@@ -59,3 +59,7 @@ A classe `TestAbstractFactory` contém testes para validar a implementação do 
 -   **Objetivo**: Verificar se a emissão de uma nota fiscal digital está funcionando corretamente.
 -   **Método**: Utiliza a fábrica `FabricaNotaDigital` para criar um pedido e emite a nota fiscal, verificando se o resultado é "Nota Fiscal Digital.".
 -   **Resultado Esperado**: A string "Nota Fiscal Digital." é retornada ao emitir a nota fiscal.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/eb3c3599-6e75-464a-9ef8-9eae2a0a42d5)
+
