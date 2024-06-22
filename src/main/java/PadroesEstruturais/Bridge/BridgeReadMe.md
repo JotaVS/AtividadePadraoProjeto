@@ -98,3 +98,6 @@ A classe `TestBridge` testa a implementação das classes `CRV`, `Civic`, `Preto
     -   **Objetivo**: Verificar se o valor do carro CRV é calculado corretamente com a cor preta fosca.
     -   **Método**: Criar uma instância de `CRV` com a cor `PretoFosco` e chamar o método `getValor()`.
     -   **Resultado Esperado**: O valor do carro deve ser 350000.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/8509c9ba-e335-49ca-9e82-651e0cf71f26)
