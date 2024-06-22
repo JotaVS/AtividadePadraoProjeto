@@ -106,3 +106,6 @@ O TestFactoryMethod contém testes para validar a implementação do padrão Fac
 -   **Objetivo:** Verificar se uma exceção é lançada ao tentar criar um veículo com um tipo inválido.
 -   **Método:** Tenta criar um veículo usando `criarVeiculo("avião")` da VeiculoFactory e verifica se uma exceção do tipo IllegalArgumentException é lançada com a mensagem "Tipo de veículo inválido!".
 -   **Resultado Esperado:** Deve lançar uma exceção com a mensagem correta quando o tipo de veículo não é reconhecido pela fábrica.
+
+## Comprovação de Teste
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/b8871108-f65c-4971-afd8-8c2d5d4ad953)
