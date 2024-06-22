@@ -71,3 +71,7 @@ Configura um protótipo de Figura com valores iniciais e cria um clone desse pro
 -   Objetivo: Verificar se a modificação da coordenada Y no clone não afeta o objeto original.
 -   Método: Altera a coordenada Y do clone e compara com a coordenada Y do original usando assertNotEquals.
 -   Resultado Esperado: As coordenadas Y das figuras original e clone devem ser diferentes após a modificação.
+
+## Comprovação dos Testes
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/1a44be90-0937-476b-8da5-7e4ddee2c394)
+
