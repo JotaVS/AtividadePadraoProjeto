@@ -85,3 +85,7 @@ A classe `TestProxy` busca testas as funcionalidades do projeto, verificando se 
 -   **Objetivo:** Verificar se o método `getSaldo()` retorna o saldo correto da conta bancária.
 -   **Método:** Cria uma instância de `ContaBancariaProxy` com um saldo inicial de 1000.0 e senha "123". Chama o método `getSaldo()` e verifica se o saldo retornado é igual a 1000.0.
 -   **Resultado Esperado:** O saldo retornado deve corresponder ao saldo atual da conta bancária.
+
+## Comprovação dos Testes
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/27e89117-6f03-4542-ba0c-01d794174fdd)
+
