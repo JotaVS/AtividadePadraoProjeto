@@ -68,3 +68,6 @@ Os testes a seguir verificam o correto funcionamento da classe `HomeTheaterFacad
 -   **Objetivo:** Verificar se o método `endMovie()` da classe `HomeTheaterFacade` executa corretamente a sequência de ações para encerrar a exibição de um filme.
 -   **Método:** Instancia objetos de `DvdPlayer`, `Projetor`, `SoundBar` e `HomeTheaterFacade`. Chama o método `endMovie()`. Verifica se a lista de ações retorna possui o tamanho esperado e se cada ação ocorre na sequência correta.
 -   **Resultado Esperado:** O método `endMovie()` deve desligar os dispositivos e informar que o home theater foi desligado.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/b6b736b7-cc08-4fb9-8581-dac821275a9d)
