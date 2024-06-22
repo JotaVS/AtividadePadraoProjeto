@@ -130,3 +130,6 @@ O `TestCommand.java` busca verificar o comportamento do padrão de design Comman
 -   **Resultado Esperado:**
 
     -   O resultado deve ser `"A Salada está sendo feita."`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/df24890b-c277-4eba-9d89-4309f803e8cd)
