@@ -69,7 +69,9 @@ A classe `TestComposite` testa a implementação das classes `Departamento` e `E
     -   **Método**: Criar uma instância de `Departamento` com o nome "Gerencia" e uma instância de `Empregado` com o nome "Jorge" e o cargo "CEO". Adicionar o empregado ao departamento e chamar o método `mostrarDetalhes()`.
     -   **Resultado Esperado**: A string retornada deve ser "Departamento: Gerencia \n Empregado: Jorge, Cargo: CEO", sendo cada \n um paragrafo demonstrando a estrutura de árvore do padrão.
 -   **public void removerEmpregado()**: Testa a remoção de um empregado de um departamento e a exibição de seus detalhes.
-    
     -   **Objetivo**: Verificar se a remoção de um empregado de um departamento funciona corretamente e se os detalhes são exibidos corretamente.
     -   **Método**: Criar uma instância de `Departamento` com o nome "Gerencia" e uma instância de `Empregado` com o nome "Jorge" e o cargo "CEO". Adicionar o empregado ao departamento, removê-lo e chamar o método `mostrarDetalhes()`.
     -   **Resultado Esperado**: A string retornada deve ser "Departamento: Gerencia".
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/7ad52b8b-963a-4c5b-b602-cda33386475a)
