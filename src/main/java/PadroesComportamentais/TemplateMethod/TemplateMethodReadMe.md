@@ -80,3 +80,6 @@ O `TestTemplateMethod.java` contém testes unitários para verificar o comportam
         Copiar código
 
         `Preparando para atacar... Mago lançando uma bola de fogo! Ataque finalizado.`
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/0b8a7e55-a8ed-4d2b-8c82-36ccf083abed)
