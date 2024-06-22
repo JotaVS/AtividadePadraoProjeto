@@ -57,3 +57,6 @@ A classe `TestAdapter` busca garantir que as funcionalidades do padrão Adapter 
     -   **Objetivo**: Verificar se a temperatura em Fahrenheit é configurada corretamente ao definir a temperatura em Celsius.
     -   **Método**: Chamar `adapter.setTemperatureEmCelsius(100.0)` e verificar o valor de `temperaturaFahrenheit.getTemperaturaFahrenheit()`.
     -   **Resultado Esperado**: A temperatura em Fahrenheit deve ser 212.0 quando a temperatura em Celsius é definida como 100.0.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/2f0ea076-da1a-4188-b783-4a527fc9dbc5)
