@@ -98,3 +98,6 @@ O `TestMediator.java` para verificar o funcionamento de uma sala de chat que ger
     -   A mensagem enviada pelo funcionário deve ser `"Alice (Funcionario) disse: Olá, pessoal! (enviado para Chat Funcionarios)"`.
     -   A mensagem enviada pelo cliente deve ser `"Bob (Cliente) disse: Olá, empresa! (enviado para Chat Clientes)"`.
     -   A mensagem enviada pelo usuário desconhecido deve ser `"Tipo de Usuario Desconhecido!"`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/2c06d7fd-39ea-467a-a07f-dfae51f072dc)
