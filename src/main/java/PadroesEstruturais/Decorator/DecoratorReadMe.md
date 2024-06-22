@@ -92,3 +92,6 @@ A classe `TestDecorator` testa a funcionalidade das classes de documento e seus 
     -   Usar o `RodapeDecorator` para adicionar o rodapé "Rodapé" ao documento.
     -   Verificar se o conteúdo retornado é "Cabeçalho\nConteudo\nRodapé", sendo cada \n um paragrafo.
 -   **Resultado Esperado**: A string retornada deve ser "Cabeçalho\nConteudo\nRodapé".
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/6d488c88-4a09-4868-ac14-464dab03b4fb)
