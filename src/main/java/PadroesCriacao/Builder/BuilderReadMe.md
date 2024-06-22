@@ -52,3 +52,6 @@ A classe TestBuilder contém testes para validar a implementação do padrão Bu
 -   Objetivo: Verificar se um produto válido pode ser construído usando o ProdutoBuilder.
 -   Método: Constrói um produto com nome, descrição e preço definidos e verifica se os atributos foram corretamente atribuídos.
 -   Resultado Esperado: O produto é criado com os atributos corretos e não é nulo.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/4c269c8a-7b7a-4417-936c-162a8ab22d71)
