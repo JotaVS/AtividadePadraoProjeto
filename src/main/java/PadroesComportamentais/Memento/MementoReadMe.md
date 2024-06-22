@@ -93,3 +93,6 @@ O `TestMemento.java` contém testes para validar o comportamento do padrão Meme
 -   **Resultado Esperado:**
 
     -   Deve ser lançada uma exceção `IllegalStateException` com a mensagem `"Nenhum checkpoint salvo."`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/80460596-f5b0-4646-98b9-b64979a1744a)
