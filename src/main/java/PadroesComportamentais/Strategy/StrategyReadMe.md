@@ -118,3 +118,6 @@ O `TestStrategy.java` contém testes unitários para validar o comportamento do 
 -   **Resultado Esperado:**
     
     -   Deve ser lançada uma exceção `IllegalStateException` com a mensagem `"Metodo de pagamento invalido."`.
+
+## Comprovação dos Testes:
+![image](https://github.com/JotaVS/AtividadePadraoProjeto/assets/114262723/ae18fb56-6e27-4f71-b827-45abdb46bd9e)
