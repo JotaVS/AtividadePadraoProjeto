@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f0702691-7e5b-40b2-89f2-a30c2cd4844e" name="Changes" comment="Visitor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Memento/MementoReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Memento/MementoReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Observer/ObserverReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Observer/ObserverReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/TemplateMethod/TemplateMethodReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/TemplateMethod/TemplateMethodReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Visitor/VisitorReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PadroesComportamentais/Visitor/VisitorReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,55 +128,50 @@
       <recent name="PadroesComportamentais.Observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestInterpreter">
-    <configuration name="TestInterpreter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PadroesEstruturais.Bridge in AtividadePadraoProjeto">
+    <configuration name="PadroesComportamentais.State in AtividadePadraoProjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesComportamentais.Interpreter.*" />
+          <option name="PATTERN" value="PadroesComportamentais.State.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesComportamentais.Interpreter" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Interpreter.TestInterpreter" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.State" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterpreter.testeAcaoDesconhecida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PadroesComportamentais.Strategy in AtividadePadraoProjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesComportamentais.Interpreter.*" />
+          <option name="PATTERN" value="PadroesComportamentais.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesComportamentais.Interpreter" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Interpreter.TestInterpreter" />
-      <option name="METHOD_NAME" value="testeAcaoDesconhecida" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.Strategy" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInterpreter.testeAtaque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PadroesComportamentais.TemplateMethod in AtividadePadraoProjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesComportamentais.Interpreter.*" />
+          <option name="PATTERN" value="PadroesComportamentais.TemplateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesComportamentais.Interpreter" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Interpreter.TestInterpreter" />
-      <option name="METHOD_NAME" value="testeAtaque" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="PadroesComportamentais.TemplateMethod" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PadroesComportamentais.Visitor in AtividadePadraoProjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
@@ -189,35 +180,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="PadroesComportamentais.Visitor" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Visitor.TestVisitor" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestVisitor.testStatusReportVisitor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PadroesEstruturais.Bridge in AtividadePadraoProjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AtividadePadraoProjeto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PadroesComportamentais.Visitor.*" />
+          <option name="PATTERN" value="PadroesEstruturais.Bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="PadroesComportamentais.Visitor" />
-      <option name="MAIN_CLASS_NAME" value="PadroesComportamentais.Visitor.TestVisitor" />
-      <option name="METHOD_NAME" value="testStatusReportVisitor" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="PadroesEstruturais.Bridge" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestInterpreter" />
-        <item itemvalue="JUnit.TestInterpreter.testeAcaoDesconhecida" />
-        <item itemvalue="JUnit.TestInterpreter.testeAtaque" />
-        <item itemvalue="JUnit.TestVisitor" />
-        <item itemvalue="JUnit.TestVisitor.testStatusReportVisitor" />
+        <item itemvalue="JUnit.PadroesEstruturais.Bridge in AtividadePadraoProjeto" />
+        <item itemvalue="JUnit.PadroesComportamentais.Visitor in AtividadePadraoProjeto" />
+        <item itemvalue="JUnit.PadroesComportamentais.TemplateMethod in AtividadePadraoProjeto" />
+        <item itemvalue="JUnit.PadroesComportamentais.Strategy in AtividadePadraoProjeto" />
+        <item itemvalue="JUnit.PadroesComportamentais.State in AtividadePadraoProjeto" />
       </list>
     </recent_temporary>
   </component>
@@ -439,6 +427,9 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestDecorator.ic" NAME="TestDecorator Coverage Results" MODIFIED="1718887241985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesEstruturais.Decorator.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Visitor_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Visitor in AtividadePadraoProjeto Coverage Results" MODIFIED="1719076049438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Visitor.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestPrototype.ic" NAME="TestPrototype Coverage Results" MODIFIED="1716400163500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Prototype.*</FILTER>
     </SUITE>
@@ -451,13 +442,19 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestIterator.ic" NAME="TestIterator Coverage Results" MODIFIED="1718832952319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Iterator.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Iterator_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Iterator in AtividadePadraoProjeto Coverage Results" MODIFIED="1719074197028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Iterator.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestBuilder.ic" NAME="TestBuilder Coverage Results" MODIFIED="1716391484441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Builder.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFacade.ic" NAME="TestFacade Coverage Results" MODIFIED="1718887162933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesEstruturais.Facade.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_ChainOfResponsability_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.ChainOfResponsability in AtividadePadraoProjeto Coverage Results" MODIFIED="1718885799696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_State_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.State in AtividadePadraoProjeto Coverage Results" MODIFIED="1719075421371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.State.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_ChainOfResponsability_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.ChainOfResponsability in AtividadePadraoProjeto Coverage Results" MODIFIED="1719073863251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesComportamentais.ChainOfResponsability.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestMediator.ic" NAME="TestMediator Coverage Results" MODIFIED="1718840980496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
@@ -466,8 +463,17 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestObserver.ic" NAME="TestObserver Coverage Results" MODIFIED="1717549811653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Observer.Usuario</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Memento_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Memento in AtividadePadraoProjeto Coverage Results" MODIFIED="1719074805597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Memento.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais in AtividadePadraoProjeto Coverage Results" MODIFIED="1718885473640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesComportamentais.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Observer_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Observer in AtividadePadraoProjeto Coverage Results" MODIFIED="1719075113476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Observer.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Strategy_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Strategy in AtividadePadraoProjeto Coverage Results" MODIFIED="1719075834886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Strategy.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestFlyweight_testArvoreFactory.ic" NAME="TestFlyweight.testArvoreFactory Coverage Results" MODIFIED="1718733551006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesEstruturais.Flyweight.*</FILTER>
@@ -475,11 +481,17 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestSingleton.ic" NAME="TestSingleton Coverage Results" MODIFIED="1716398950910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesCriacao.Singleton.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Mediator_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Mediator in AtividadePadraoProjeto Coverage Results" MODIFIED="1719074442098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Mediator.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestInterpreter.ic" NAME="TestInterpreter Coverage Results" MODIFIED="1718912584922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Interpreter.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestVisitor_testDamageCalculatorVisitor.ic" NAME="TestVisitor.testDamageCalculatorVisitor Coverage Results" MODIFIED="1718907426923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Visitor.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesEstruturais_Bridge_in_AtividadePadraoProjeto.ic" NAME="PadroesEstruturais.Bridge in AtividadePadraoProjeto Coverage Results" MODIFIED="1719078332056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesEstruturais.Bridge.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestStrategy.ic" NAME="TestStrategy Coverage Results" MODIFIED="1718147812923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.Strategy.*</FILTER>
@@ -499,6 +511,12 @@
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestState.ic" NAME="TestState Coverage Results" MODIFIED="1717635534128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>PadroesComportamentais.State.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Command_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Command in AtividadePadraoProjeto Coverage Results" MODIFIED="1719073967021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_TemplateMethod_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.TemplateMethod in AtividadePadraoProjeto Coverage Results" MODIFIED="1719075899611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.TemplateMethod.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestAdapter.ic" NAME="TestAdapter Coverage Results" MODIFIED="1718887507311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesEstruturais.Adapter.*</FILTER>
     </SUITE>
@@ -516,6 +534,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$TestComposite.ic" NAME="TestComposite Coverage Results" MODIFIED="1718887387922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>PadroesEstruturais.Composite.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/AtividadePadraoProjeto$PadroesComportamentais_Interpreter_in_AtividadePadraoProjeto.ic" NAME="PadroesComportamentais.Interpreter in AtividadePadraoProjeto Coverage Results" MODIFIED="1719074014911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>PadroesComportamentais.Interpreter.*</FILTER>
     </SUITE>
   </component>
 </project>
