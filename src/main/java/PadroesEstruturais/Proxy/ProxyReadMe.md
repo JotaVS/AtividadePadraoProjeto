@@ -1,5 +1,5 @@
 # Padrão Proxy - Conta Bancária
-O projeto implementa o padrão de projeto Proxy para fornecer uma camada de controle e segurança sobre, o padrão Proxy é aplicado para gerenciar o acesso à conta bancária real, verificando a autenticação antes de permitir que operações como depósito, retirada e consulta de saldo sejam executadas.
+O projeto implementa o padrão de projeto Proxy para fornecer uma camada de controle e segurança no sistema, o padrão Proxy é aplicado para gerenciar o acesso à conta bancária real, verificando a autenticação antes de permitir que operações como depósito, retirada e consulta de saldo sejam executadas.
 
 ## ContaBancaria.java
 
